@@ -264,9 +264,13 @@ button:hover {
         justify-content: center;
         width: 100%;
     }
-    .title-container {
+    .title-container div {
+        display: flex;
+        justify-content: center;
         width: 100%;
-        margin: 0 auto;
+        margin: .5 auto;
+        height: 40vh;
+        background-position: center;
     }
     nav {
         width: 80%;
