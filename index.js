@@ -238,7 +238,7 @@ function get20s(array) {
     twenties = []
     for (i = 0; i < array.length; i++) {
         if (array[i].years.substring(0, 4) >= 1900 && array[i].years.slice(-4) <= 2000) {
-            twenties.push(array[i].names);
+            twenties.push(array[i].name);
         }
     }
     return twenties;
@@ -295,7 +295,7 @@ function lotsOfArt(array) {
     let arta = []
     for (let i = 0; i < array.length; i++) {
         if (array[i].paintings >= 100) {
-            arta.push(array[i].names);
+            arta.push(array[i].name);
         }
     }
     return arta;
